@@ -42,10 +42,11 @@ packer.startup(function(use)
 
   use 'lewis6991/gitsigns.nvim'
 
-  use 'onsails/lspkind-nvim'  -- vscode-like pictograms
-  use 'hrsh7th/cmp-buffer'    -- nvim-cmp source for buffer words
-  use 'hrsh7th/cmp-nvim-lsp'  -- nvim-cmp source for neovim's built-in LSP
-  use 'hrsh7th/nvim-cmp'      -- Completion
+  use 'onsails/lspkind-nvim'        -- vscode-like pictograms
+  use 'hrsh7th/cmp-buffer'          -- nvim-cmp source for buffer words
+  use 'hrsh7th/cmp-nvim-lsp'        -- nvim-cmp source for neovim's built-in LSP
+  use 'hrsh7th/nvim-cmp'            -- Completion
 
-  use 'numToStr/Comment.nvim' -- comment lines or blocks
+  use 'numToStr/Comment.nvim'       -- comment lines or blocks
+  use 'norcalli/nvim-colorizer.lua' -- display hex values as colors
 end)
