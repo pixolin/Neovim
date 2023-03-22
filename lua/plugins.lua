@@ -50,4 +50,6 @@ packer.startup(function(use)
 
   use 'numToStr/Comment.nvim'       -- comment lines or blocks
   use 'norcalli/nvim-colorizer.lua' -- display hex values as colors
+
+  use 'folke/todo-comments.nvim'    -- colorize annotations
 end)
