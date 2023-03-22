@@ -13,8 +13,8 @@ packer.startup(function(use)
     requires = { 'tjdevries/colorbuddy.nvim' }
   }
   use 'nvim-lualine/lualine.nvim' -- Statusline
-  use 'nvim-lua/plenary.nvim' -- Common utilities
-  use 'windwp/nvim-autopairs' -- Autopair brackets, quotes…
+  use 'nvim-lua/plenary.nvim'     -- Common utilities
+  use 'windwp/nvim-autopairs'     -- Autopair brackets, quotes…
 
   use {
     'folke/which-key.nvim', -- Display key options
@@ -31,20 +31,21 @@ packer.startup(function(use)
 
   use 'kyazdani42/nvim-web-devicons' -- File icons
   use {
-      'nvim-telescope/telescope.nvim',
-      requires = {'nvim-lua/plenary.nvim'}
+    'nvim-telescope/telescope.nvim',
+    requires = { 'nvim-lua/plenary.nvim' }
   }
   use 'nvim-telescope/telescope-file-browser.nvim'
 
-  use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
+  use 'neovim/nvim-lspconfig'           -- Configurations for Nvim LSP
   use 'jose-elias-alvarez/null-ls.nvim' -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
   use 'MunifTanjim/prettier.nvim'
 
   use 'lewis6991/gitsigns.nvim'
 
-  use 'onsails/lspkind-nvim' -- vscode-like pictograms
-  use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
-  use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP
-  use 'hrsh7th/nvim-cmp' -- Completion
+  use 'onsails/lspkind-nvim'  -- vscode-like pictograms
+  use 'hrsh7th/cmp-buffer'    -- nvim-cmp source for buffer words
+  use 'hrsh7th/cmp-nvim-lsp'  -- nvim-cmp source for neovim's built-in LSP
+  use 'hrsh7th/nvim-cmp'      -- Completion
 
+  use 'numToStr/Comment.nvim' -- comment lines or blocks
 end)
