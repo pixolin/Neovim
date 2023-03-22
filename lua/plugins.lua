@@ -15,4 +15,13 @@ packer.startup(function(use)
   use 'nvim-lualine/lualine.nvim' -- Statusline
   use 'nvim-lua/plenary.nvim' -- Common utilities
   use 'windwp/nvim-autopairs' -- Autopair brackets, quotes…
+
+  use {
+    'folke/which-key.nvim', -- Display key options
+    config = function()
+      vim.o.timeout = true
+      vim.o.timeoutlen = 300
+    end
+  }
+
 end)
