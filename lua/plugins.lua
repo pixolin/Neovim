@@ -29,4 +29,11 @@ packer.startup(function(use)
     run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
   }
 
+  use 'kyazdani42/nvim-web-devicons' -- File icons
+  use {
+      'nvim-telescope/telescope.nvim',
+      requires = {'nvim-lua/plenary.nvim'}
+  }
+  use 'nvim-telescope/telescope-file-browser.nvim'
+
 end)
