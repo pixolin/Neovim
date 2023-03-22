@@ -36,4 +36,8 @@ packer.startup(function(use)
   }
   use 'nvim-telescope/telescope-file-browser.nvim'
 
+  use 'neovim/nvim-lspconfig'
+  use 'jose-elias-alvarez/null-ls.nvim' -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
+  use 'MunifTanjim/prettier.nvim'
+
 end)
