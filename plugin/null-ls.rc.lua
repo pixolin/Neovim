@@ -16,7 +16,7 @@ null_ls.setup {
   sources = {
     -- Diagnostics
     null_ls.builtins.diagnostics.editorconfig_checker,
-    -- null_ls.builtins.diagnostics.phpcs,
+    null_ls.builtins.diagnostics.phpcs.with({ extra_args = { '--standard=WordPress' } }),
     null_ls.builtins.diagnostics.pylint,
     null_ls.builtins.diagnostics.shellcheck,
     null_ls.builtins.diagnostics.stylelint,
@@ -24,7 +24,7 @@ null_ls.setup {
 
     -- Formatting
     null_ls.builtins.formatting.black,
-    -- null_ls.builtins.formatting.phcbf,
+    null_ls.builtins.formatting.phpcbf.with({ extra_args = { '--standard=WordPress' } }),
     null_ls.builtins.formatting.stylelint,
     null_ls.builtins.formatting.tidy,
   },
