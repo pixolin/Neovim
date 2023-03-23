@@ -39,6 +39,18 @@ vim.api.nvim_create_autocmd("InsertLeave", {
   command = "set nopaste"
 })
 
+-- whitespace
+vim.opt.listchars = {
+  -- eol = '¬',
+  -- space = '·',
+  tab = '->',
+  trail = '✚',
+  extends = '◀',
+  precedes = '▶',
+  nbsp = '␣'
+}
+vim.opt.list = true
+
 -- Add asterisks in block comments
 vim.opt.formatoptions:append { 'r' }
 
