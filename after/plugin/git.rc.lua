@@ -3,4 +3,6 @@ if not ok then
   print("git.nvim not loaded")
 end
 
-git.setup()
+git.setup({
+  default_mappings = false
+})

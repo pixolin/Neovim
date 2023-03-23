@@ -24,7 +24,7 @@ vim.opt.smarttab = true
 vim.opt.breakindent = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
-vim.opt.wrap = false -- No Wrap lines
+vim.opt.wrap = false         -- No Wrap lines
 vim.opt.backspace = { 'start', 'eol', 'indent' }
 vim.opt.path:append { '**' } -- Finding files - Search down into subfolders
 vim.opt.wildignore:append { '*/node_modules/*' }
@@ -41,3 +41,17 @@ vim.api.nvim_create_autocmd("InsertLeave", {
 
 -- Add asterisks in block comments
 vim.opt.formatoptions:append { 'r' }
+
+vim.opt.fillchars = {
+  foldopen = "",
+  foldclose = "",
+  fold = " ",
+  foldsep = " ",
+  diff = "╱",
+  eob = " ",
+}
+
+vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
+vim.o.foldlevelstart = 99
+vim.o.foldenable = true
+vim.o.foldcolumn = "0"

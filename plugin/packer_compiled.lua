@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/bego/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  LuaSnip = {
+    loaded = true,
+    path = "/Users/bego/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/bego/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -93,6 +98,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/bego/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
+  },
+  ["git.nvim"] = {
+    loaded = true,
+    path = "/Users/bego/.local/share/nvim/site/pack/packer/start/git.nvim",
+    url = "https://github.com/dinhhuy258/git.nvim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -113,6 +123,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/bego/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/Users/bego/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/Users/bego/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
   },
   ["neosolarized.nvim"] = {
     loaded = true,
