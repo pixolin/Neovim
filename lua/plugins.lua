@@ -42,14 +42,15 @@ packer.startup(function(use)
   use 'folke/trouble.nvim'              -- A pretty list for showing diagnostics
   use 'L3MON4D3/LuaSnip'                -- Snippets
 
-  use 'lewis6991/gitsigns.nvim'
+  use 'dinhhuy258/git.nvim'             -- use Git commands in nvim
+  use 'lewis6991/gitsigns.nvim'         -- show git changes
 
-  use 'onsails/lspkind-nvim'    -- vscode-like pictograms
-  use 'hrsh7th/cmp-buffer'      -- nvim-cmp source for buffer words
-  use 'hrsh7th/cmp-nvim-lsp'    -- nvim-cmp source for neovim's built-in LSP
-  use 'hrsh7th/nvim-cmp'        -- Completion
-  use 'glepnir/lspsaga.nvim'    -- LSP UIs
-  use 'williamboman/mason.nvim' -- install linters, formatters
+  use 'onsails/lspkind-nvim'            -- vscode-like pictograms
+  use 'hrsh7th/cmp-buffer'              -- nvim-cmp source for buffer words
+  use 'hrsh7th/cmp-nvim-lsp'            -- nvim-cmp source for neovim's built-in LSP
+  use 'hrsh7th/nvim-cmp'                -- Completion
+  use 'glepnir/lspsaga.nvim'            -- LSP UIs
+  use 'williamboman/mason.nvim'         -- install linters, formatters
   use 'williamboman/mason-lspconfig.nvim'
 
   use 'numToStr/Comment.nvim'       -- comment lines or blocks
