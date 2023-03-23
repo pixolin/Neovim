@@ -57,4 +57,6 @@ packer.startup(function(use)
   use 'norcalli/nvim-colorizer.lua' -- display hex values as colors
 
   use 'folke/todo-comments.nvim'    -- colorize annotations
+
+  use 'folke/zen-mode.nvim'         -- Zen mode
 end)
