@@ -27,6 +27,9 @@ null_ls.setup {
     null_ls.builtins.formatting.phpcbf.with({ extra_args = { '--standard=WordPress' } }),
     null_ls.builtins.formatting.stylelint,
     null_ls.builtins.formatting.tidy,
+
+    -- Code Actions
+    -- null_ls.builtins.code_actions.gitsigns,
   },
   on_attach = function(client, bufnr)
     if client.supports_method("textDocument/formatting") then

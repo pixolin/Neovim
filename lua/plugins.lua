@@ -40,6 +40,7 @@ packer.startup(function(use)
   use 'jose-elias-alvarez/null-ls.nvim' -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
   use 'MunifTanjim/prettier.nvim'
   use 'folke/trouble.nvim'              -- A pretty list for showing diagnostics
+  use 'L3MON4D3/LuaSnip'                -- Snippets
 
   use 'lewis6991/gitsigns.nvim'
 
