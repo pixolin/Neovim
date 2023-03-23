@@ -1,4 +1,4 @@
-require('base')
-require('highlights')
-require('keymaps')
-require('plugins')
+require('pixolin/base')
+require('pixolin/highlights')
+require('pixolin/keymaps')
+require('pixolin/plugins')
