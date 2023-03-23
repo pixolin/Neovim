@@ -59,4 +59,5 @@ packer.startup(function(use)
   use 'folke/todo-comments.nvim'    -- colorize annotations
 
   use 'folke/zen-mode.nvim'         -- Zen mode
+  use 'folke/twilight.nvim'         -- dims inactive portions of the code you're editingevolved
 end)
