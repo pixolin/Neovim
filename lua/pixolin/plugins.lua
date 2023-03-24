@@ -41,6 +41,7 @@ packer.startup(function(use)
   use 'MunifTanjim/prettier.nvim'
   use 'folke/trouble.nvim'              -- A pretty list for showing diagnostics
   use 'L3MON4D3/LuaSnip'                -- Snippets
+  use 'aca/emmet-ls'                    -- Emmet
 
   use 'dinhhuy258/git.nvim'             -- use Git commands in nvim
   use 'lewis6991/gitsigns.nvim'         -- show git changes
