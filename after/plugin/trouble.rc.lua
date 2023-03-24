@@ -3,7 +3,7 @@ if not ok then
   print("Plugin trouble.nvim not loaded")
 end
 
-require('trouble').setup()
+trouble.setup()
 
 vim.keymap.set("n", "<leader>xx", "<cmd>TroubleToggle<cr>",
   { silent = true, noremap = true }

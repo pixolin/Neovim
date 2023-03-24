@@ -3,4 +3,4 @@ if not ok then
   print("Comment.nvim not loaded")
 end
 
-require('Comment').setup()
+comment.setup()

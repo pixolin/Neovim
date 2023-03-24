@@ -1,4 +1,4 @@
-local status, todocomments = pcall(require, 'todo-comments')
+local status, todo = pcall(require, 'todo-comments')
 if (not status) then return end
 
-todocomments.setup()
+todo.setup()
