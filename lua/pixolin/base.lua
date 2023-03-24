@@ -44,10 +44,10 @@ vim.opt.listchars = {
   -- eol = '¬',
   -- space = '·',
   tab = '->',
-  trail = '✚',
+  trail = '·',
   extends = '◀',
   precedes = '▶',
-  nbsp = '␣'
+  nbsp = '≣'
 }
 vim.opt.list = true
 
