@@ -61,4 +61,14 @@ packer.startup(function(use)
 
   use 'folke/zen-mode.nvim'         -- Zen mode
   use 'folke/twilight.nvim'         -- dims inactive portions of the code you're editingevolved
+
+  use {
+    'sudormrfbin/cheatsheet.nvim',
+
+    requires = {
+      { 'nvim-telescope/telescope.nvim' },
+      { 'nvim-lua/popup.nvim' },
+      { 'nvim-lua/plenary.nvim' },
+    }
+  }
 end)
