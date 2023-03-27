@@ -14,7 +14,7 @@ packer.startup(function(use)
   }
   use 'nvim-lualine/lualine.nvim' -- Statusline
   use 'nvim-lua/plenary.nvim'     -- Common utilities
-  use 'windwp/nvim-autopairs'     -- Autopair brackets, quotes…
+  --  use 'windwp/nvim-autopairs'     -- Autopair brackets, quotes…
 
   use {
     'folke/which-key.nvim', -- Display key options
@@ -54,7 +54,7 @@ packer.startup(function(use)
   use 'williamboman/mason.nvim'         -- install linters, formatters
   use 'williamboman/mason-lspconfig.nvim'
 
-  use 'numToStr/Comment.nvim'       -- comment lines or blocks
+  -- use 'numToStr/Comment.nvim'       -- comment lines or blocks
   use 'norcalli/nvim-colorizer.lua' -- display hex values as colors
 
   use 'folke/todo-comments.nvim'    -- colorize annotations
@@ -71,4 +71,6 @@ packer.startup(function(use)
       { 'nvim-lua/plenary.nvim' },
     }
   }
+
+  use 'echasnovski/mini.nvim' -- plugin collection
 end)
